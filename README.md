@@ -25,4 +25,4 @@
 *  Настроена валидация для формы вводы данных
 | Night time | Validation HTML |Form validation |
 |-------------|-------------|-------------|
-![Скриншот темной версии дизайна](./images/screen-dark.png) |![Скриншот проверки валиадности html](./images/screen-html-validation.png) | ![Скриншот валидации формы](./images/screen-form-validation.png)
+|![Скриншот темной версии дизайна](./images/screen-dark.png)|![Скриншот проверки валиадности html](./images/screen-html-validation.png)|![Скриншот валидации формы](./images/screen-form-validation.png)|
