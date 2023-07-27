@@ -13,7 +13,7 @@
 * API / Fetch
 * Local Storage
 
-![Скриншот приложения прогноза погоды](./images/screen-app.png) | ![Скриншот адаптивной формы приложения](./images/screen-adaptive.png) 
+| ![Скриншот приложения прогноза погоды](./images/screen-app.png) | ![Скриншот адаптивной формы приложения](./images/screen-adaptive.png) |
 
 ## Реализованный функционал:
 *  Адаптивность под все типы устройств (desktop и mobile)
