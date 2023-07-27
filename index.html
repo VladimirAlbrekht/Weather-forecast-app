@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="app">
+                <div id="loader"><img src="./images/loader.gif" alt="loader"></div>
+                <span class="background"></span>
+                <div class="root">
+                </div>
+                <div class="weather-container">
+                    <h1 class="weather-container__title">Weather Forecast</h1>
+                    <form action="GET" class="form" novalidate>
+                        <fieldset class="form__group">
+                            <label class="form__lable" for="city">
+                                <input type="text" class="form__input" name="city" placeholder="Write your city"
+                                    minlength="2" id='city' required>
+                                <span class="form__error"></span>
+                            </label>
+                            <button type="submit" class="form__submit">OK</button>
+                        </fieldset>
+                    </form>
+                </div>Í
+            </div>
+        </div>
+        <template id="template">
+            <div class="weather">
+                <h1 class="weather__title"></h1>
+                <span class="weather__time"></span>
+                <div class="weather__header">
+                    <div class="weather__main-info">
+                        <div class="weather__temperature"></div>
+                        <img src="https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"
+                            alt="" class="weather__image">
+                    </div>
+                    <div class="weather__content">
+                        <span class="weather__description"></span>
+                        <span class="weather__feelslike"></span>
+                    </div>
+                </div>
+                <div class="weather__footer">
+                    <span class="weather__wind"></span>
+                    <span class="weather__pressure"></span>
+                    <span class="weather__humidity"></span>
+                    <span class="weather__cloudcover"></span>
+                </div>
+            </div>
+
+        </template>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
